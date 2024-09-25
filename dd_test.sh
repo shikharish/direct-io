@@ -3,7 +3,7 @@
 filename=big_test_file
 bs=256K
 count=49152
-flags=sync
+flags=sync,direct
 
 for i in {1..5}; do
     echo "----RUN $i----"
